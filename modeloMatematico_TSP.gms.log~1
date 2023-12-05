@@ -1,0 +1,42 @@
+
+--- Job modeloMatematico_TSP.gms Start 12/05/23 02:13:35 43.3.0 9e10b068 WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\43\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input "C:\Users\Ruben\OneDrive\Documentos\ITESM_IDM\Semestre 5\Periodo 3\MA2015 Dise�o de algoritmos matem�ticos bioinspirados\Semana 5\Reto\modeloMatematico_TSP.gms"
+    PageSize 0
+    ScrDir "C:\Users\Ruben\OneDrive\Documentos\ITESM_IDM\Semestre 5\Periodo 3\MA2015 Dise�o de algoritmos matem�ticos bioinspirados\Semana 5\Reto\225a\"
+    SysDir C:\GAMS\43\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: GAMS Demo license for Ruben Castro             G230525|0002CO-GEN
+          Tecnologico de Monterrey, Mexico                         DL093110
+          C:\Users\Ruben\OneDrive\Documentos\GAMS\gamslice.txt
+          a00833945@tec.mx, Ruben Castro                                   
+          Demo license for demonstration and instructional purposes only
+Processor information: 1 socket(s), 8 core(s), and 16 thread(s) available
+GAMS 43.3.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
+--- Starting compilation
+--- modeloMatematico_TSP.gms(13) 3 Mb
+--- . matrizDistancia0.csv(101) 3 Mb
+--- modeloMatematico_TSP.gms(42) 3 Mb
+--- Starting execution: elapsed 0:00:00.015
+--- modeloMatematico_TSP.gms(3) 4 Mb
+--- Generating MIP model transporte
+--- modeloMatematico_TSP.gms(141) 10 Mb
+---   9,903 rows  10,100 columns  59,107 non-zeroes
+---   10,000 discrete-columns
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 1.000E+00, 9.900E+01] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E+00, 1.000E+00] - Zero values observed as well
+--- Matrix    [min, max] : [ 8.537E-02, 1.000E+06]
+*** The model exceeds the demo license limits for linear models of more than 2000 rows or columns
+    As an academic user, you can submit large models to the NEOS service for free (see https://www.gams.com/neos)
+    Alternatively, feel free to contact sales@gams.com to discuss your options
+*** Status: Terminated due to a licensing error
+***         License file: C:\Users\Ruben\OneDrive\Documentos\GAMS\gamslice.txt
+***         Inspect listing file for more information.
+--- Job modeloMatematico_TSP.gms Stop 12/05/23 02:13:35 elapsed 0:00:00.122
