@@ -117,7 +117,7 @@ class AntColony(object):
 
 
 # Open the CSV file
-with open('matrizDistancias/150 nodos/matrizDistancia0.csv', 'r') as file:
+with open('matrizDistancias/40 nodos/matrizDistancia0.csv', 'r') as file:
     reader = csv.reader(file)
     # Skip the header row
     next(reader)
@@ -128,7 +128,7 @@ with open('matrizDistancias/150 nodos/matrizDistancia0.csv', 'r') as file:
 
 
 start_time = timeit.default_timer()
-ant_colony = AntColony(distances=distancias, n_ants=150, n_best=30, n_iterations=100, decay=0.5, alpha=1, beta=1)
+ant_colony = AntColony(distances=distancias, n_ants=40, n_best=8, n_iterations=100, decay=0.1, alpha=1, beta=1)
 shortest_path,log = ant_colony.run()
 end_time = timeit.default_timer()
 execution_time =  end_time - start_time

@@ -167,7 +167,7 @@ def algoritmoGenetico_TSP(poblacion,matrizDistancias,generaciones,numeroNodos,fa
 
 
 # Open the CSV file
-with open('matrizDistancias/150 nodos/matrizDistancia1.csv', 'r') as file:
+with open('matrizDistancias/100 nodos/matrizDistancia0.csv', 'r') as file:
     reader = csv.reader(file)
     # Skip the header row
     next(reader)
@@ -179,15 +179,15 @@ with open('matrizDistancias/150 nodos/matrizDistancia1.csv', 'r') as file:
 #print(graph)
 #print()
 
-numeroNodos = 40
+numeroNodos = 100
 start_time = timeit.default_timer()
-generacion_individuos = generar_poblacion_inicial(50,numeroNodos) #poblacion inicial con factibilidad
+generacion_individuos = generar_poblacion_inicial(100,numeroNodos) #poblacion inicial con factibilidad
 poblacion_inicial =  evaluarFuncionFitness(generacion_individuos,graph,numeroNodos)
 
 print(poblacion_inicial)
 print()
 
-poblacion_final = algoritmoGenetico_TSP(poblacion_inicial,graph,6000,numeroNodos,factibilidad=True)
+poblacion_final = algoritmoGenetico_TSP(poblacion_inicial,graph,10000,numeroNodos,factibilidad=True)
 end_time = timeit.default_timer()
 execution_time =  end_time - start_time
 print(poblacion_final)
