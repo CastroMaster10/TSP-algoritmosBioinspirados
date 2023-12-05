@@ -179,9 +179,9 @@ with open('matrizDistancias/150 nodos/matrizDistancia1.csv', 'r') as file:
 #print(graph)
 #print()
 
-numeroNodos = 150
+numeroNodos = 40
 start_time = timeit.default_timer()
-generacion_individuos = generar_poblacion_inicial(100,numeroNodos) #poblacion inicial con factibilidad
+generacion_individuos = generar_poblacion_inicial(50,numeroNodos) #poblacion inicial con factibilidad
 poblacion_inicial =  evaluarFuncionFitness(generacion_individuos,graph,numeroNodos)
 
 print(poblacion_inicial)
